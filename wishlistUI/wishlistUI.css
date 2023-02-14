@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 3.5rem;
+    width: 100vw;
+    background-color: rgb(255, 132, 0);
+}

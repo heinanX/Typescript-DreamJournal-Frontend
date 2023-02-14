@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(52, 52, 52); */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 3.5rem;
+    width: 100vw;
+    background-color: rgb(255, 132, 0);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+#bobbysGreeting {
+    height: 200px;
+    width: auto;
+}
+
+.textLogo {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 55pt;
+}
+
+.loginLineBR {
+    background-color: rgb(255, 228, 175);
+    height: 0.5rem;
+    width: 22rem;
+}
+
+.loginHeading {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 10pt;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    width: 22rem;
+    padding-top: 1rem;
+}
+
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    height: 1rem;
+    width: 15rem;
+    border: orange solid 1px;
+    background-color: rgb(255, 242, 215);
+    padding: 5px 10px 5px 10px;
+}
+
+.smallerText {
+    font-size: 9pt;
+}
+
+.loginButtonsDiv {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 5rem;
+}
+
+.loginBtn {
+    height: 2rem;
+    width: 7rem;
+}

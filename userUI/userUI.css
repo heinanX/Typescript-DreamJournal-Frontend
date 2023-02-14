@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 3.5rem;
+    width: 100vw;
+    background-color: rgb(255, 132, 0);
+
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20pt;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.signOutBtn {
+    height: 2rem;
+    width: 7rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 14pt;
+}
+
+.loginLineBR {
+    background-color: rgb(255, 228, 175);
+    height: 0.5rem;
+    width: 22rem;
+    margin-top: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    width: 18rem;
+    height: 18rem;
+}
+
+.circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.2rem;
+
+    height: 8rem;
+    width: 8rem;
+    /* border: 2px solid rgb(236, 183, 75); */
+}
+
+.iconSize {
+    /* color: rgb(255, 228, 175); */
+    font-size: 40pt;
+    margin-bottom: 0.2rem;
+}
+
+#userPic {
+    background-color: rgb(255, 228, 175);
+    height: 180px;
+    width: auto;
+    border-radius: 2rem;
+    margin: 1rem;
+}

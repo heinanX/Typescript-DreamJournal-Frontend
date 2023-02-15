@@ -1,16 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 22rem;
+    height: 5rem;
+    background-color: brown;
+
+    margin-top: 2rem;
 }
 
-.header {
-    height: 3.5rem;
-    width: 100vw;
-    background-color: rgb(255, 132, 0);
+.inputWish {
+    width: 22rem;
+    height: 4rem;
+    padding: 1rem;
+    font-size: 20pt;
 }

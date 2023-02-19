@@ -1,27 +1,67 @@
 [
     {
         "title": "Dream One",
-        "body": "Dream body number one"
+        "description": "It's a dream about a dog who did not want to be alone.",
+        "body": "Dream body number one and once upn a time there was a dog called kodybarks, he slept on the couch because he didn't want to sleep by himself on the bed. He liked the warmth from his human and also, it put him closer to the candy and other edibles that his human and friend had bought for their fredags fika",
+        "author": "Dracgon",
+        "genre": "nightmare",
+        "id": 1,
+        "isPrivate": false
     },     {
         "title": "Dream Two",
-        "body": "Dream body number two"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number two",
+        "author": "Tessbius",
+        "genre": "funny",
+        "id": 2,
+        "isPrivate": false
     },     {
         "title": "Dream Three",
-        "body": "Dream body number three"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number three",
+        "author": "heinan",
+        "genre": "nightmare",
+        "id": 3,
+        "isPrivate": false
     },     {
         "title": "Dream Four",
-        "body": "Dream body number four"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number four",
+        "author": "hekka",
+        "genre": "psycadelic",
+        "id": 4,
+        "isPrivate": false
     },     {
         "title": "Dream Five",
-        "body": "Dream body number five"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number five",
+        "author": "OhMyMEGotz",
+        "genre": "nightmare",
+        "id": 5,
+        "isPrivate": false
     },     {
         "title": "DreamSix",
-        "body": "Dream body number six"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number six",
+        "author": "User2",
+        "genre": "nightmare",
+        "id": 6,
+        "isPrivate": false
     },     {
         "title": "Dream Seven",
-        "body": "Dream body number seven"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number seven",
+        "author": "Dracgon",
+        "genre": "fantasy",
+        "id": 7,
+        "isPrivate": false
     },     {
         "title": "Dream Eight",
-        "body": "Dream body number eight"
+        "description": "Description two adn it's a descrition about something very descriptery. Descriptions description was what made it interesteing",
+        "body": "Dream body number eight",
+        "author": "futuristic",
+        "genre": "fantasy",
+        "id": 8,
+        "isPrivate": false
     }
 ]

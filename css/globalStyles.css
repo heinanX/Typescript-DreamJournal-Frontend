@@ -10,8 +10,11 @@
     justify-content: space-between;
 
     height: 3.5rem;
-    width: 100vw;
-    background-color: rgb(255, 132, 0);
+    width: 100%;
+    /* yellow & orange color theme */
+/*     background-color: rgb(233, 146, 24); */
+    /* blue color theme */
+    background-color: rgb(127, 204, 255);
 
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 20pt;
@@ -19,13 +22,29 @@
     padding-right: 0.5rem;
 }
 
-.homepage {
+.headerLogo {
     text-decoration: none;
-    color: black;
+    color: rgb(231, 246, 255);
 }
+
+.headerLogo:hover {
+    color: rgb(203, 233, 252);
+}
+
+.headerIcons {
+    font-size: 25pt;
+    padding-right: 0.5rem;
+    padding-top: 10px;
+}
+
+/* .homepage {
+    text-decoration: none;
+    color: rgb(231, 246, 255);
+}
+
 .homepage:hover {
-    color: rgb(255, 209, 160);
-}
+    color: rgb(203, 233, 252);
+} */
 
 .signOutBtn {
     height: 2rem;
@@ -38,17 +57,34 @@
     justify-content: space-between;
 }
 
-.cartIcon {
+
+/* .cartIcon {
     font-size: 25pt;
     padding-right: 0.5rem;
     padding-top: 10px;
-}
+} */
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinkStripper {
+    text-decoration: none;
+    color: rgb(255, 149, 0)
+}
+
+.alinkStripper:hover {
+    color: rgb(51, 172, 252);
 }
 
 /* footer {

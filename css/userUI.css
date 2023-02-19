@@ -5,24 +5,19 @@
     align-items: center;
 }
 
-.profileInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .greeting {
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 14pt;
 }
 
 .loginLineBR {
-    background-color: rgb(255, 228, 175);
+    background-color: rgb(127, 204, 255);
     height: 0.5rem;
     width: 22rem;
     margin-top: 1em;
 }
+
+/* ----------- User activity choice ------------- */
 
 .container {
     display: flex;
@@ -47,14 +42,14 @@
     /* border: 2px solid rgb(236, 183, 75); */
 }
 
-.iconSize {
-    /* color: rgb(255, 228, 175); */
+.iconSettings {
+    color: rgb(127, 204, 255);
     font-size: 40pt;
     margin-bottom: 0.2rem;
 }
 
 #userPic {
-    background-color: rgb(255, 228, 175);
+    background-color: rgb(190, 226, 250);
     height: 180px;
     width: auto;
     border-radius: 2rem;

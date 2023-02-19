@@ -13,7 +13,8 @@
 .header {
     height: 3.5rem;
     width: 100vw;
-    background-color: rgb(255, 132, 0);
+/*     background-color: rgb(255, 132, 0); */
+background-color: rgb(233, 146, 24);
 }
 
 .logo {
@@ -21,6 +22,11 @@
     flex-direction: row;
     align-items: center;
     padding-top: 2rem;
+}
+
+.colorDiv {
+    background-color: rgb(229, 184, 122);
+    border-radius: 10rem;
 }
 
 #bobbysGreeting {
@@ -34,9 +40,11 @@
 }
 
 .loginLineBR {
-    background-color: rgb(255, 228, 175);
+/*     background-color: rgb(255, 228, 175); */
+    background-color: rgb(229, 184, 122);
     height: 0.5rem;
     width: 22rem;
+    margin-top: 1rem;
 }
 
 .loginHeading {

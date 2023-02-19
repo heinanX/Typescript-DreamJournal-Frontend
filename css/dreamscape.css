@@ -1,0 +1,173 @@
+.profileInfo {
+    width: 25rem;
+    margin-top: 2rem;
+}
+
+.colorDiv {
+/*     background-color: rgb(229, 184, 122); */
+    background-color: rgb(190, 226, 250);
+    border-radius: 5rem;
+}
+
+#smallIconBobbi {
+    width: 4rem;
+    height: auto;
+}
+
+.loginLineBR {
+    margin-top: 1rem;
+    width: 10rem;
+    height: 0.3rem;
+/*     background-color: rgb(229, 206, 173); */
+    background-color: rgb(127, 204, 255);
+    border-radius: 1rem;
+}
+
+.lookUpDreamDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lookUpDreamBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 1rem;
+    width: 15rem;
+}
+
+.lookUpDreamInput {
+    width: 22rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 14pt;
+}
+
+.lookUpDreamBtn, .lookUpDreamOperator {
+    width: 6rem;
+    height: 2rem;
+}
+
+.lookUpDreamOperator{
+    text-align: center;
+}
+
+/* -------------- */
+
+.dreamContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-top: 1rem;
+    width: 29rem;
+    height: auto;
+/*  yellow theme   
+    border: 2px solid rgb(247, 238, 226); */
+    border: 2px solid rgb(229, 244, 255);
+    border-radius: 2px;
+}
+
+.dreamDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dreamImg {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.mainContainer {
+    width: 28rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1rem;
+}
+
+.mainContainer:nth-child(odd) {
+    /* background-color: rgb(225, 219, 209); */
+/*  yellow theme don't know about the other one   
+    background-color: rgb(229, 206, 173); */
+    background-color:rgb(221, 237, 249);
+}
+
+#title:hover, #author:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+#title {
+    font-weight: 700;
+}
+
+#genre {
+    font-style: italic;
+    color: rgb(130, 105, 70);
+/*     color: rgb(128, 128, 128); */
+}
+
+.rowDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.responseDiv {
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.responseDiv {
+    gap: 1rem;
+}
+
+#comment:hover, #likes:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ---------------- Dream viewer code ----------------- */
+
+.viewEntry--titleAuthorGenre {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.viewEntry--returnBtn {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2px;
+    border: none;
+}
+.viewEntry--returnBtn:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+#viewEntry--title {
+    font-weight: 700;
+}
+
+#viewEntry--body {
+    margin: 0 1rem 0 1rem;
+}
+#viewEntry--genre {
+    font-style: italic;
+    color: rgb(81, 127, 157);
+}
+
+#viewEntry--author:hover {
+    text-decoration: underline;
+}

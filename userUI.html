@@ -19,12 +19,12 @@
     <body>
         <header>
             <div class="header">
-                <a class="homepage" href="../index.html"><p>ボビーの夢</p></a>
+                <a class="headerLogo" href="index.html"><p>ボビーの夢</p></a>
                 <div class="divHeader">
-                    <a href="../wishlistUI/wishlistUI.html"><span class="material-symbols-outlined cartIcon homepage">
+                    <a href="dreamscapeUI.html"><span class="material-symbols-outlined headerIcons headerLogo">
                         grade
                     </span></a>
-                    <a href="../userUI/userUI.html"><span class="material-symbols-outlined cartIcon homepage">
+                    <a href="userUI.html"><span class="material-symbols-outlined headerIcons headerLogo">
                         face
                     </span></a>
                     <button class="signOutBtn">Sign Out</button>
@@ -42,28 +42,34 @@
 
             <div class="container">
                 <div class="circles">
-                    <span class="material-symbols-outlined iconSize iconSize homepage">grade</span>
+                    <span class="material-symbols-outlined iconSize iconSettings">
+                        <a href="createEntryUI.html" class="alinkStripper">grade</a>
+                    </span>
                     <p>Start on a New Dream!</p>
                 </div>
 
                 <div class="circles">
-                    <span class="material-symbols-outlined iconSize iconSize homepage">auto_awesome</span>
-                    My Dreams
+                    <span class="material-symbols-outlined iconSize iconSettings">
+                        <a href="#" class="alinkStripper">auto_awesome</a>
+                    </span>
+                    <p>My Dreams</p>
                 </div>
 
-                <div class="circles" onclick="dreamjournals()"><span class="material-symbols-outlined iconSize homepage">
-                    hotel_class
+                <div class="circles">
+                    <span class="material-symbols-outlined iconSettings">
+                        <a href="dreamscapeUI.html" class="alinkStripper">hotel_class</a>
                     </span>
                     Community Dreams
                 </div>
 
-                <div class="circles"><span class="material-symbols-outlined iconSize homepage">
-                    manage_accounts
+                <div class="circles">
+                    <span class="material-symbols-outlined iconSettings">
+                        <a href="#" class="alinkStripper">manage_accounts</a>
                     </span>
-                    <p>Account Preferances</p> </div>
+                    <p>Account Preferances</p>
+                </div>
             </div>
         </div>
     </main>
-        <a href="../index.html">Homepage</a>
     </body>
 </html>
